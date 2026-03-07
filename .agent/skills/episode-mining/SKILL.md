@@ -1,6 +1,6 @@
 ---
 name: episode-mining
-description: 자기소개서에 사용할 에피소드를 체계적으로 발굴하고 정리합니다. 경험 소재를 인수분해하여 직무별로 분류합니다. 프로젝트 폴더를 지정하면 파일 기반 자동 추출도 가능합니다.
+description: 자기소개서 초안 작성 전 단계에서 사용할 에피소드를 체계적으로 발굴하고 정리합니다. 경험 소재를 인수분해하여 직무별로 분류하며, 프로젝트 폴더를 지정하면 파일 기반 자동 추출도 가능합니다.
 argument-hint: "[직무명] [프로젝트 폴더 경로(선택)]"
 disable-model-invocation: true
 ---
@@ -8,6 +8,18 @@ disable-model-invocation: true
 # 에피소드 발굴 스킬
 
 자기소개서에 활용할 에피소드를 체계적으로 발굴·정리·분류한다.
+
+---
+
+## 참조 문서 사용법
+
+이 파일은 **진입 지침과 전체 워크플로우**만 설명한다.
+상세 기준은 아래 문서를 필요할 때만 펼쳐본다.
+
+- 파일 스캔 상세 기준: [references/project-scan-guide.md](references/project-scan-guide.md)
+- 창의/혁신/개선 문항 보강: [references/creative-problem-solving.md](references/creative-problem-solving.md)
+- 사례 구조 참고: [references/episode-examples.md](references/episode-examples.md)
+- 최종 정리 양식: [assets/episode-template.md](assets/episode-template.md)
 
 ---
 
@@ -22,7 +34,7 @@ disable-model-invocation: true
 
 사용자가 프로젝트 폴더를 지정하면, 파일에서 자소서 소재를 자동 추출한다.
 
-상세 가이드: [project-scan-guide.md](project-scan-guide.md)
+상세 가이드: [references/project-scan-guide.md](references/project-scan-guide.md)
 
 ### A-1. 파일 탐색
 
@@ -62,7 +74,7 @@ disable-model-invocation: true
 
 각 카테고리에서 발견된 단서는 **내용, 근거 파일, 기술적 복잡도, 사용자 확인 필요 항목, 자소서 활용**을 정리한다.
 
-상세 가이드: [project-scan-guide.md](project-scan-guide.md) 의 "기술 심화 추출 레이어" 섹션
+상세 가이드: [references/project-scan-guide.md](references/project-scan-guide.md) 의 "기술 심화 추출 레이어" 섹션
 
 ### A-3. 빈칸 + 기술 심화 질문 생성
 
@@ -77,6 +89,8 @@ disable-model-invocation: true
 - "[발견한 이슈/버그 수정]에서 원인을 본인이 분석하셨나요?"
 - "기술 선택 시 어떤 대안을 검토하고 왜 이 기술을 선택했나요?"
 - "CI/CD나 인프라 구성에 본인이 관여한 부분이 있나요?"
+- "이 개선이 사용자나 운영자에게 왜 중요했나요?"
+- "시간, 비용, 레거시 같은 제약 때문에 포기하거나 조정한 부분이 있었나요?"
 
 > 질문은 **감정 기반 접근**으로 구성한다 (Step 0-1 참조)
 > "성과가 뭐였나요?" 대신 → "가장 힘들었던 부분이 뭐였어요?"
@@ -90,7 +104,7 @@ disable-model-invocation: true
 현재 프로젝트에 **없지만 추가하면 자소서 소재가 되는 것**을 제안한다.
 성능 측정, 모니터링, 테스트 코드, 보안, 캐싱, DB 최적화, 배포 자동화 등 10개 영역을 점검하여 보강 방법과 예상 소요 시간을 안내한다.
 
-상세 가이드: [project-scan-guide.md](project-scan-guide.md) 의 "포트폴리오 보강 가이드" 섹션
+상세 가이드: [references/project-scan-guide.md](references/project-scan-guide.md) 의 "포트폴리오 보강 가이드" 섹션
 
 이후 Step 3(카테고리 분류)로 넘어간다.
 
@@ -232,7 +246,7 @@ disable-model-invocation: true
 2. **논리적/분석적**으로 접근했는가?
 3. 해결 방법이 **참신**한가? (기존과 다른 방법론)
 
-상세 가이드: [creative-problem-solving.md](creative-problem-solving.md)
+상세 가이드: [references/creative-problem-solving.md](references/creative-problem-solving.md)
 
 ### 3단계: 가치관 에피소드 활용
 
@@ -244,7 +258,7 @@ disable-model-invocation: true
 - 매우 구체적일 것
 - 가치관·역량(주인정신, 팀워크, 끈기 등)이 명확히 드러날 것
 
-참고 예시: [episode-examples.md](episode-examples.md)
+참고 예시: [references/episode-examples.md](references/episode-examples.md)
 
 ---
 
@@ -276,15 +290,15 @@ disable-model-invocation: true
 
 분류된 에피소드를 문항 유형별로 매핑하여 시트를 생성한다:
 
-[episode-template.md](episode-template.md)의 양식에 따라 결과를 출력한다.
+[assets/episode-template.md](assets/episode-template.md)의 양식에 따라 결과를 출력한다.
 
 ---
 
 ## 추가 리소스
-- 에피소드 정리 시트 양식: [episode-template.md](episode-template.md)
-- 프로젝트 파일 스캔 가이드: [project-scan-guide.md](project-scan-guide.md)
-- 창의적 문제해결 가이드: [creative-problem-solving.md](creative-problem-solving.md)
-- 에피소드 사례집: [episode-examples.md](episode-examples.md)
+- 에피소드 정리 시트 양식: [assets/episode-template.md](assets/episode-template.md)
+- 프로젝트 파일 스캔 가이드: [references/project-scan-guide.md](references/project-scan-guide.md)
+- 창의적 문제해결 가이드: [references/creative-problem-solving.md](references/creative-problem-solving.md)
+- 에피소드 사례집: [references/episode-examples.md](references/episode-examples.md)
 
 ## 다음 단계 연계
 

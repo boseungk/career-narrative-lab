@@ -1,6 +1,6 @@
 ---
 name: episode-mining
-description: 자기소개서에 사용할 에피소드를 체계적으로 발굴하고 정리합니다. 경험 소재를 인수분해하여 직무별로 분류합니다. 프로젝트 폴더를 지정하면 파일 기반 자동 추출도 가능합니다.
+description: 자기소개서 초안 작성 전 단계에서 사용할 에피소드를 체계적으로 발굴하고 정리합니다. 경험 소재를 인수분해하여 직무별로 분류하며, 프로젝트 폴더를 지정하면 파일 기반 자동 추출도 가능합니다.
 argument-hint: "[직무명] [프로젝트 폴더 경로(선택)]"
 disable-model-invocation: true
 ---
@@ -8,6 +8,18 @@ disable-model-invocation: true
 # 에피소드 발굴 스킬
 
 자기소개서에 활용할 에피소드를 체계적으로 발굴·정리·분류한다.
+
+---
+
+## 참조 문서 사용법
+
+이 파일은 **진입 지침과 전체 워크플로우**만 설명한다.
+상세 기준은 아래 문서를 필요할 때만 펼쳐본다.
+
+- 파일 스캔 상세 기준: [project-scan-guide.md](project-scan-guide.md)
+- 창의/혁신/개선 문항 보강: [creative-problem-solving.md](creative-problem-solving.md)
+- 사례 구조 참고: [episode-examples.md](episode-examples.md)
+- 최종 정리 양식: [episode-template.md](episode-template.md)
 
 ---
 
@@ -77,6 +89,8 @@ disable-model-invocation: true
 - "[발견한 이슈/버그 수정]에서 원인을 본인이 분석하셨나요?"
 - "기술 선택 시 어떤 대안을 검토하고 왜 이 기술을 선택했나요?"
 - "CI/CD나 인프라 구성에 본인이 관여한 부분이 있나요?"
+- "이 개선이 사용자나 운영자에게 왜 중요했나요?"
+- "시간, 비용, 레거시 같은 제약 때문에 포기하거나 조정한 부분이 있었나요?"
 
 > 질문은 **감정 기반 접근**으로 구성한다 (Step 0-1 참조)
 > "성과가 뭐였나요?" 대신 → "가장 힘들었던 부분이 뭐였어요?"
