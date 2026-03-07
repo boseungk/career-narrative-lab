@@ -27,8 +27,6 @@
 - 요청이 특정 스킬 목적과 명확히 맞으면 해당 스킬을 사용한다.
 - 여러 스킬이 걸치면 최소 개수만 선택한다.
 - `SKILL.md` 는 진입 지침으로 읽고, 상세 기준은 그 문서가 직접 가리키는 참조 파일만 연다.
-- `episode-mining` 수행 시 기본 산출물로 현재 작업 디렉터리에 `episode_inventory.md` 와 `MASTER_cover_letter.md` 를 실제 생성한다.
-- `general-cover-letter` 는 초안 작성 전에 위 두 문서를 우선 참조한다.
 
 ## Sync Rules
 

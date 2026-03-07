@@ -315,25 +315,6 @@ disable-model-invocation: true
 - 정보가 부족하면 빈칸과 추가 확인 필요 항목을 남긴다.
 - 양식: [assets/MASTER_cover_letter.md](assets/MASTER_cover_letter.md)
 
-### Step 5: 산출물 파일 생성
-
-Step 4가 끝나면 **제안으로 끝내지 말고**, 반드시 현재 작업 디렉터리에 아래 2개 파일을 실제로 생성한다.
-
-1. `episode_inventory.md`
-- [assets/episode_inventory.md](assets/episode_inventory.md) 양식을 기반으로 작성한다.
-- 발굴한 에피소드 전체 목록, 14항목 인수분해, 기술 디테일, 문항 매핑을 채운다.
-
-2. `MASTER_cover_letter.md`
-- [assets/MASTER_cover_letter.md](assets/MASTER_cover_letter.md) 양식을 기반으로 작성한다.
-- 회사/공고 비의존형 베이스 문서로 작성한다.
-- 핵심 강점, 대표 에피소드, 지원동기/포부 원재료를 정리한다.
-
-파일 생성 규칙:
-- 사용자가 명시적으로 원치 않는 한, **산출물 제안만 하지 말고 파일 생성까지 완료한다.**
-- 정보가 부족해도 파일은 생성하고, 빈칸은 `[추가 확인 필요]`로 남긴다.
-- 검증되지 않은 내용은 추정으로 채우지 않는다.
-- 최종 응답에서는 생성한 파일 경로와 추가 확인이 필요한 항목만 짧게 보고한다.
-
 ---
 
 ## 추가 리소스
