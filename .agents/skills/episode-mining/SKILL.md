@@ -19,7 +19,8 @@ disable-model-invocation: true
 - 파일 스캔 상세 기준: [references/project-scan-guide.md](references/project-scan-guide.md)
 - 창의/혁신/개선 문항 보강: [references/creative-problem-solving.md](references/creative-problem-solving.md)
 - 사례 구조 참고: [references/episode-examples.md](references/episode-examples.md)
-- 최종 정리 양식: [assets/episode-template.md](assets/episode-template.md)
+- 에피소드 인벤토리 양식: [assets/episode_inventory.md](assets/episode_inventory.md)
+- 마스터 자소서 베이스 양식: [assets/MASTER_cover_letter.md](assets/MASTER_cover_letter.md)
 
 ---
 
@@ -369,14 +370,25 @@ disable-model-invocation: true
 - **기여도**: 본인 기여도 30% 이상인가?
 - **디테일 자신감**: 면접에서 심화 질문에 답변할 수 있는가?
 
-분류된 에피소드를 문항 유형별로 매핑하여 시트를 생성한다:
+분류된 에피소드를 문항 유형별로 매핑하여 아래 2개 문서를 만든다:
 
-[assets/episode-template.md](assets/episode-template.md)의 양식에 따라 결과를 출력한다.
+1. `episode_inventory.md`
+- 기본 산출물이다.
+- 발굴한 에피소드 전체 목록, 14항목 인수분해, 기술 디테일, 3층 구조, 문항 유형별 매핑을 정리한다.
+- 양식: [assets/episode_inventory.md](assets/episode_inventory.md)
+
+2. `MASTER_cover_letter.md`
+- 회사/공고 비의존형 **베이스 문서**다.
+- 완성 제출본이 아니라, 여러 회사 자소서에 재사용할 핵심 강점·대표 에피소드·지원동기/포부 원재료를 모은다.
+- 특정 회사명, 특정 공고 표현, 검증되지 않은 과장은 넣지 않는다.
+- 정보가 부족하면 빈칸과 추가 확인 필요 항목을 남긴다.
+- 양식: [assets/MASTER_cover_letter.md](assets/MASTER_cover_letter.md)
 
 ---
 
 ## 추가 리소스
-- 에피소드 정리 시트 양식: [assets/episode-template.md](assets/episode-template.md)
+- 에피소드 인벤토리 양식: [assets/episode_inventory.md](assets/episode_inventory.md)
+- 마스터 자소서 베이스 양식: [assets/MASTER_cover_letter.md](assets/MASTER_cover_letter.md)
 - 프로젝트 파일 스캔 가이드: [references/project-scan-guide.md](references/project-scan-guide.md)
 - 창의적 문제해결 가이드: [references/creative-problem-solving.md](references/creative-problem-solving.md)
 - 에피소드 사례집: [references/episode-examples.md](references/episode-examples.md)
@@ -384,5 +396,5 @@ disable-model-invocation: true
 ## 다음 단계 연계
 
 에피소드 정리가 완료되면:
-1. **자소서 초안 작성** → `general-cover-letter` 스킬이 자동 참조되어 문항 분석·STAR 구조·톤 가이드를 적용합니다
+1. **자소서 초안 작성** → `general-cover-letter` 스킬이 `episode_inventory.md`와 `MASTER_cover_letter.md`를 우선 참조하여 문항 분석·STAR 구조·톤 가이드를 적용합니다
 2. **자소서 리뷰** → `/review-cover-letter [파일명]`으로 초안의 구체성·반복·표현 품질을 체계적으로 점검합니다
